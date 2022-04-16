@@ -1,21 +1,30 @@
 import "./app.css";
-import Header from './components/Navbar';
-import Slides from "./components/Carousel";
-import Plan from "./components/Plan";
-import Product from "./components/Products";
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import Header from "./components/Navbar";
+import Home from "./components/home";
+import About from "./components/About";
+import Service from "./components/Services";
 import Footer from "./components/Footer";
-import Body from "./components/Body";
+import Contact from "./components/Contact";
+import Login from "./components/Login";
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Slides/>
-      <Body/>
-      <Plan/>
-      <Product/>
-      <Footer/>
-    </div>
+    <Router>
+      <div className="App">
+        <Header/>
+        <Routes>
+          <Route path="/" exact element={<Home/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/service" element={<Service/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/login" element={<Login/>}/>
+
+        </Routes>
+
+        <Footer/>
+      </div>
+    </Router>
   );
 }
 

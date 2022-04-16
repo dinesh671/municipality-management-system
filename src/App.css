@@ -18,6 +18,13 @@ code {
   font-size: 17px;
   text-align: center;
   margin: 0;
+  background-color: #33B263;
+  
+}
+.nav-link{
+  font-weight: 500 !important;
+  list-style: none;
+  color: #fff !important;
   
 }
 
@@ -99,4 +106,96 @@ code {
   font-style: italic;
   display: flex;
   color: #ffff;
+  justify-content: center;
+  align-items: center;
+}
+
+.about{
+  text-align: center;
+  padding: 5rem;
+  background: url("./img/vit-university-logo.png") ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.about p{
+  padding: 1rem;
+  color: #777777;
+  
+}
+.service{
+  padding: 5rem;
+  background: url("./img/vit-university-logo.png") ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.service h1{
+  text-align: center;
+}
+.service ul{
+  padding: 2rem 2rem 2rem 5rem;
+  list-style-type:disc;
+}
+
+.login-card{
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 16px 40px rgba(0, 0, 0, 0.15);
+  margin: 2rem;
+  background: url("./img/login-bg.svg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 10px;
+
+}
+.login{
+  display: flex;
+  justify-content: center;
+}
+.login-card input{
+  width: 300px;
+  opacity: 50%;
+
+}
+input:hover{
+  opacity: 1;
+}
+.login-card h4{
+  margin: 1em 2em;
+  font-weight: bold;
+}
+.login-card button{
+  background-color: #33B263 !important;
+  border-color:#33B263 ;
+  
+}
+.forget-pass{
+  cursor: pointer;
+}
+.forget-pass:hover{
+  color: #005F6A;
+  text-decoration: underline;
+}
+.Register-Here{
+  margin-top: 2em;
+}
+.Register-Here span:hover{
+  color: #001220;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.size{
+  width: 50%;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.size button{
+  width: fit-content;
 }

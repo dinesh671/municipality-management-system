@@ -1,0 +1,16 @@
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  background: #33B263;
+  color: #fff;
+}
+
+.nav-link{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+
+}

@@ -14,7 +14,7 @@ function Plan(){
                         src={About}
                     />
                 </div>
-                <div className="content" >
+                <div className="content">
                     <h1>So what are our plans?</h1>
                         <div >
 
@@ -39,7 +39,7 @@ function Plan(){
                         </div>
                 </div>
             </div>
-            <img src={wave} alt="logo"/>
+            <img src={wave} alt="logo" width={"100%"}/>
 
         </div>
     )
