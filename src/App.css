@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
 body {
   margin: 0;
   text-decoration: none;
   background-color: rgb(187, 187, 187);
   list-style: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -18,7 +18,6 @@ code {
   font-size: 17px;
   text-align: center;
   margin: 0;
-  background-color: #33B263;
   
 }
 .nav-link{
@@ -58,7 +57,7 @@ code {
   text-align: center;
 }
 .plan-card{
- background-color: #33B263 !important;
+ background-color: #001220 !important;
  display: flex;
  align-content: center;
  justify-content: center;
@@ -66,12 +65,13 @@ code {
 
 
 .card-image img{
-  background-size: cover;
+  background-size: contain;
   width: 611px;
-  height: 632px;
+  height: 521px;
 
 }
 .content{
+  margin-top: 2rem;
   padding: 1rem 4rem;
   color: #ffff;
 }
@@ -88,6 +88,7 @@ code {
   display: grid;
   justify-content: center;
   align-content: center;
+  background-image: url("./img/bgbg.svg");
 }
 .products-cards{
   display: grid;
@@ -104,12 +105,13 @@ code {
 
 .address{
   font-style: italic;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   color: #ffff;
-  justify-content: center;
-  align-items: center;
 }
-
+.address iframe{
+  grid-column: 3/4;
+}
 .about{
   text-align: center;
   padding: 5rem;
@@ -156,14 +158,16 @@ code {
 .login{
   display: flex;
   justify-content: center;
+  background: url("./img/vit-university-logo.png") 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  
 }
-.login-card input{
-  width: 300px;
-  opacity: 50%;
 
-}
-input:hover{
-  opacity: 1;
+.phone{
+  color: #fff !important;
+  margin: 1em !important;
 }
 .login-card h4{
   margin: 1em 2em;
@@ -189,13 +193,48 @@ input:hover{
   cursor: pointer;
   text-decoration: underline;
 }
+
+.form-grid{
+  display: flex;
+  justify-content: center;
+}
 .size{
-  width: 50%;
+  color: #fff;
+  width: 65%;
   margin: 3rem;
+  padding: 3rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 16px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: url("./img/contact-bg.svg");
+}
+.size h2{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom:2rem;
 }
 .size button{
   width: fit-content;
+}
+/* .size input{
+  opacity: .5;
+}
+.size textarea{
+  opacity: .5;
+} */
+input:hover{
+  opacity: 1;
+}
+textarea:hover{
+  opacity: 1;
+}
+
+.margin{
+  margin-bottom: 1rem;
+}
+
+.margin-top{
+  margin-bottom: 1rem;
 }

@@ -6,8 +6,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 function Footer(){
     return(
         <ModalFooter sticky="bottom" style={{background:"#000"}}>
-            <div className="address" style={{background:"#000"}} >
-            <p bg="dark" >
+            <div className="address">
+            <p bg="dark"  >
 
              <p > <strong>Municipality Service System</strong><br/>
                      A Govt. of Madhya Pradesh Undertaking</p>

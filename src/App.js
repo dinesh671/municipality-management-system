@@ -7,6 +7,7 @@ import Service from "./components/Services";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Login from "./components/Login";
+import TradeLicense from "./components/tradeLicense";
 
 function App() {
   return (
@@ -15,13 +16,13 @@ function App() {
         <Header/>
         <Routes>
           <Route path="/" exact element={<Home/>}/>
+          <Route path="/home" exact element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/service" element={<Service/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/login" element={<Login/>}/>
-
+          <Route path="/tradeLicense" element={<TradeLicense/>}/>
         </Routes>
-
         <Footer/>
       </div>
     </Router>

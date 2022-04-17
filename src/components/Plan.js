@@ -1,6 +1,6 @@
 import React from "react";
 import Image from 'react-bootstrap/Image'
-import About from "../img/about.jpg"
+import About from "../img/about1.jpg"
 import wave from "../img/hero wave.svg"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -39,8 +39,6 @@ function Plan(){
                         </div>
                 </div>
             </div>
-            <img src={wave} alt="logo" width={"100%"}/>
-
         </div>
     )
 }

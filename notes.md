@@ -1,0 +1,1 @@
+https://rapidapi.com/d7admin/api/d7-verify/
