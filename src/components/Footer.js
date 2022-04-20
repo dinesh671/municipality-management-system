@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 function Footer(){
     return(
-        <ModalFooter sticky="bottom" style={{background:"#000"}}>
+        <ModalFooter sticky="bottom" className="stick-footer" style={{background:"#001220"}}>
             <div className="address">
             <p bg="dark"  >
 

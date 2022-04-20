@@ -10,7 +10,7 @@ const margin = {
 function Contact() {
   return (
     <div className="form-grid">
-   <Form className="size" action="https://formspree.io/f/mdobwpgg" method="post">
+   <Form className="size" action="https://formspree.io/f/meqnrvvg" method="post">
       <h2>Complaint Register form</h2>
     <Row style={margin}>
       <Col>
