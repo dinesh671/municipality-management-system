@@ -1,3 +1,3 @@
-# Municipality Management System React App
+# Municipality Management System.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
